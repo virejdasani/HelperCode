@@ -80,7 +80,7 @@ app.on('window-all-closed', function () {
 ```
 
 - ### Package file example
-- `package.json`
+`package.json`
 ```json
 {
   "name": "geniemoji",
