@@ -16,7 +16,9 @@
         <summary><a href="#terminal">Terminal</a></summary>
         <a href="#colors-in-the-terminal">Colors In The Terminal</a>
 </details>
-
+<details>
+        <summary><a href="#vim">Vim</a></summary>
+</details>
 <details>
         <summary><a href="#python">Python</a></summary>
 </details>
@@ -135,6 +137,39 @@ class text_color:
 
 # START MAIN
 print text_color.yellow + "YAY"
+```
+
+- ### Vim Commands
+```
+hjkl - for navigation -> k = kick UP
+i - insert
+a - same as i but insert to the right of char
+capital i - insert at the beginning of line 
+capital A - same as a but insert at the right of the line
+dd - delete line
+x - delete right
+u - undo
+:q! - quit and dont save
+:! python3 main.py - run shell commands after :!
+:line number - jump to that line number
+v - start selecting
+capital v - select whole line
+y - copy/yank
+p - paste
+d - delete
+r - replace
+
+Search and Replace
+:%s/searchWord/replaceWord/g
+Add the g at the end to search the whole file (global)
+
+To comment code =>
+First select all code to comment out
+Now, enter->
+:norm i#
+OR
+:norm i//
+etc. Remember to add a space after the comment char
 ```
 
 <div id="python" align="center">
