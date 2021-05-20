@@ -143,6 +143,7 @@ print text_color.yellow + "YAY"
         <h1>Vim</h1>
 </div>
 - ### Vim Commands
+
 ```
 hjkl - for navigation -> k = kick UP
 i - insert
