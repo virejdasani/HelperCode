@@ -1,10 +1,10 @@
 # HelperCode
 ### Table of contents
 - [Electron](#electron)
-- [Android](#android)
-- [Python](#python)
 - [GitHub](#github)
 - [Terminal](#terminal)
+- [Python](#python)
+- [Android](#android)
 
 <div id="electron" align="center">
         <h2>Electron</h2>
@@ -22,6 +22,15 @@ electron-packager . "App Name" --platform=win32 --arch=x64 --icon=path/to/icon.i
 - For Linux
 ```
 electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.png
+```
+
+<div id="github" align="center">
+        <h2>GitHub</h2>
+</div>
+
+- ### GitHub Downloads
+```
+$ curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"name"|"download_count"'
 ```
 
 <div id="python" align="center">
