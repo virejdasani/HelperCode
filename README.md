@@ -13,6 +13,7 @@
 <details>
         <summary><a href="#github">GitHub</a></summary>
         <a href="#github-downloads">GitHub Downloads</a>
+        <a href="#readme-stickers">README Stickers</a>
 </details>
 <details>
         <summary><a href="#terminal">Terminal</a></summary>
@@ -162,6 +163,36 @@ electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.p
 - ### GitHub Downloads
 ```
 $ curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"name"|"download_count"'
+```
+
+- ### README Stickers
+[![Github All Releases](https://img.shields.io/github/downloads/virejdasani/meetingassistant/total.svg)]()
+```
+[![Github All Releases](https://img.shields.io/github/downloads/virejdasani/meetingassistant/total.svg)]()
+```
+[![GitHub license](https://img.shields.io/github/license/virejdasani/meetingassistant)](https://github.com/virejdasani/meetingassistant/blob/master/LICENSE)
+```
+[![GitHub license](https://img.shields.io/github/license/virejdasani/meetingassistant)](https://github.com/virejdasani/meetingassistant/blob/master/LICENSE)
+```
+[![GitHub release](https://img.shields.io/github/release/virejdasani/meetingassistant)](https://GitHub.com/virejdasani/meetingassistant/releases/)
+```
+[![GitHub release](https://img.shields.io/github/release/virejdasani/meetingassistant)](https://GitHub.com/virejdasani/meetingassistant/releases/)
+```
+[![GitHub contributors](https://img.shields.io/github/contributors/virejdasani/meetingassistant)](https://GitHub.com/virejdasani/meetingassistant/graphs/contributors/)
+```
+[![GitHub contributors](https://img.shields.io/github/contributors/virejdasani/meetingassistant)](https://GitHub.com/virejdasani/meetingassistant/graphs/contributors/)
+```
+[![GitHub issues](https://img.shields.io/github/issues/virejdasani/meetingassistant)](https://GitHub.com/virejdasani/meetingassistant/issues/)
+```
+[![GitHub issues](https://img.shields.io/github/issues/virejdasani/meetingassistant)](https://GitHub.com/virejdasani/meetingassistant/issues/)
+```
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+```
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+```
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/virejdasani/meetingassistant/)
+```
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/virejdasani/meetingassistant/)
 ```
 
 <div id="terminal" align="center">
