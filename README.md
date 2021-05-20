@@ -9,7 +9,7 @@
 
 ## Android
 
-### Animation for any view
+- ### Animation for any view
 ```java
 //For Animation
 
@@ -26,9 +26,7 @@ public void startAnimation(View view) {
                 startAnimation(view);
 ```
 
-
-
-### Creator Activity (XML)
+- ### Creator Activity (XML)
 ```xml
 //CreatorActivity
 
@@ -95,7 +93,7 @@ public void startAnimation(View view) {
 </LinearLayout>
 ```
 
-### Firebase Example
+- ### Firebase Example
 ```java
 package com.virej.packagename;
 
@@ -185,14 +183,14 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-### Fullscreen App
+- ### Fullscreen App
 ```java
 // Put this code in the java code of the app to make it fullscreen
 getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
 ```
 
-### Function To Round Number In Java
+- ### Function To Round Number In Java
 ```java
 // Function to round doubles
     public static double round(double value, int places) {
@@ -207,7 +205,7 @@ getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 // Use round(any mathematical expression, num of spaces to round)
 ```
 
-### In-App Sounds
+- ### In-App Sounds
 ```java
 // For sound output
 final MediaPlayer diceSoundMP = MediaPlayer.create(this, R.raw.dicerollvirtualdicesound);
@@ -215,7 +213,7 @@ final MediaPlayer diceSoundMP = MediaPlayer.create(this, R.raw.dicerollvirtualdi
 diceSoundMP.start();
 ```
 
-### Splash Screen
+- ### Splash Screen
 ```java
 // Using handler with postDelayed called runnable run method
 
@@ -237,7 +235,7 @@ diceSoundMP.start();
 
 ## Python
 
-### Make `.exe` Of Python Code
+- ### Make `.exe` Of Python Code
 -Run this terminal command in the directory of the `main.py` file:
 
 ```
