@@ -33,6 +33,27 @@ electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.p
 $ curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"name"|"download_count"'
 ```
 
+<div id="terminal" align="center">
+        <h2>Terminal</h2>
+</div>
+
+- ### Colors In The Terminal
+- Add this to Python code
+```python
+class text_color:
+        black = '\033[30m'
+        red = '\033[31m'
+        green = '\033[32m'
+        yellow = '\033[33m'
+        blue = '\033[34m'
+        magenta = '\033[35m'
+        cyan = '\033[36m'
+        white = '\033[37m'
+
+# START MAIN
+print text_color.yellow + "YAY"
+```
+
 <div id="python" align="center">
         <h2>Python</h2>
 </div>
