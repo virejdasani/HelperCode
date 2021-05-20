@@ -4,7 +4,7 @@
         <summary><a href="#electron">Electron</a></summary>
         <a href="#electron">Main.js File</a>
         </br>
-        <a href="#package-file">Package.json file</a>
+        <a href="#file-example">Package.json file</a>
         </br>
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
         </br>
@@ -80,7 +80,7 @@ app.on('window-all-closed', function () {
 ```
 
 - ### `package.json` file example
-```
+```json
 {
   "name": "geniemoji",
   "version": "1.0.1",
