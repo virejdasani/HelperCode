@@ -233,13 +233,12 @@ diceSoundMP.start();
         }, 5*1000); // wait for 5 seconds
 ```
 
-
 <div id="python" align="center">
         <h2>Python</h2>
 </div>
 
 - ### Make `.exe` Of Python Code
--Run this terminal command in the directory of the `main.py` file:
+- Run this terminal command in the directory of the `main.py` file:
 
 ```
 $ pyinstaller --onefile -w main.py
@@ -253,3 +252,20 @@ $ pyinstaller --onefile -w main.py
 - Delete the build folder
 - The `.exe` is in the dist folder
 
+<div id="electron" align="center">
+        <h2>Electron</h2>
+</div>
+
+- ### Build Electron Apps
+- For MacOS
+```
+electron-packager . "App Name" --platform=darwin --arch=x64 --icon=path/to/icon.icns
+```
+- For Windows
+```
+electron-packager . "App Name" --platform=win32 --arch=x64 --icon=path/to/icon.ico
+```
+- For Linux
+```
+electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.png
+```
