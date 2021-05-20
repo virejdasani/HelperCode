@@ -98,15 +98,15 @@ const open = require('open')
 - ### Build And Package Electron Apps
 - For MacOS
 ```
-electron-packager . "App Name" --platform=darwin --arch=x64 --icon=path/to/icon.icns
+electron-packager . "App Name" --platform=darwin --arch=x64 --icon=path/to/icon.icns --ignore=builds
 ```
 - For Windows
 ```
-electron-packager . "App Name" --platform=win32 --arch=x64 --icon=path/to/icon.ico
+electron-packager . "App Name" --platform=win32 --arch=x64 --icon=path/to/icon.ico --ignore=builds
 ```
 - For Linux
 ```
-electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.png
+electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.png --ignore=builds
 ```
 
 <div id="github" align="center">
