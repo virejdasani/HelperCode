@@ -139,7 +139,7 @@ const open = require('open')
 - ### Build And Package Electron Apps
 - If `package.json` has the package scripts in the `{scripts}`, simply run the following
 ```
-$ npm run pack-operatingsystem-x64
+$ npm run pack-[operatingsystem]-x64
 ```
 - The package scripts are:
 - For MacOS
