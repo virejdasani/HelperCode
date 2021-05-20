@@ -1,9 +1,18 @@
 # HelperCode
 ### Table of contents
-- ### [Electron](#electron)
-- [Open Links In External Browser](#open-links-in-external-browser)
-- [GitHub](#github)
-- [Terminal](#terminal)
+<details>
+        <summary><a href="#electron">Electron</a></summary>
+        <a href="#open-links-in-external-browser">Open Links In External Browser</a>
+        <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
+</details>
+<details>
+        <summary><a href="#github">GitHub</a></summary>
+        <a href="#github-downloads">GitHub Downloads</a>
+</details>
+<details>
+        <summary><a href="#terminal">Terminal</a></summary>
+        <a href="#colors-in-the-terminal">Colors In The Terminal</a>
+</details>
 - [Python](#python)
 - [Android](#android)
 
