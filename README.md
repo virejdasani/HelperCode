@@ -4,7 +4,7 @@
         <summary><a href="#electron">Electron</a></summary>
         <a href="#electron">Main.js File</a>
         </br>
-        <a href="#file-example">Package.json file</a>
+        <a href="#package-file-example">Package.json file</a>
         </br>
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
         </br>
@@ -79,7 +79,8 @@ app.on('window-all-closed', function () {
 })
 ```
 
-- ### `package.json` file example
+- ### Package file example
+- `package.json`
 ```json
 {
   "name": "geniemoji",
@@ -136,6 +137,11 @@ const open = require('open')
 - This will open links in tags like `<a href="https://google.com" target="_blank">Open Google</a>` in the users default browser
 
 - ### Build And Package Electron Apps
+- If `package.json` has the package scripts in the `{scripts}`, simply run the following
+```
+$ npm run pack-operatingsystem-x64
+```
+- The package scripts are:
 - For MacOS
 ```
 electron-packager . "App Name" --platform=darwin --arch=x64 --icon=path/to/icon.icns --ignore=builds
