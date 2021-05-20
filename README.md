@@ -1,7 +1,7 @@
 # HelperCode
 ### Table of contents
 - ### [Electron](#electron)
-- [Open Links In External Browser](open-links-in-external-browser)
+- [Open Links In External Browser](#open-links-in-external-browser)
 - [GitHub](#github)
 - [Terminal](#terminal)
 - [Python](#python)
