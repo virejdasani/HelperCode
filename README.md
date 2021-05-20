@@ -139,6 +139,9 @@ class text_color:
 print text_color.yellow + "YAY"
 ```
 
+<div id="vim" align="center">
+        <h1>Vim</h1>
+</div>
 - ### Vim Commands
 ```
 hjkl - for navigation -> k = kick UP
@@ -417,4 +420,3 @@ diceSoundMP.start();
             }
         }, 5*1000); // wait for 5 seconds
 ```
-
