@@ -238,7 +238,7 @@ diceSoundMP.start();
 ### Make `.exe` Of Python Code
 -Run this terminal command in the directory of the `main.py` file:
 
-$ pyinstaller --onefile -w main.py
+```$ pyinstaller --onefile -w main.py```
 
 - The -w is if you dont want the program to run in the terminal
 - So, adding -w will not open terminal
