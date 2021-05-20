@@ -94,7 +94,7 @@ public void startAnimation(View view) {
 ```
 
 ### Firebase Example
-```
+```java
 package com.virej.packagename;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -184,14 +184,14 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ### Fullscreen App
-```
+```java
 // Put this code in the java code of the app to make it fullscreen
 getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
 ```
 
 ### Function To Round Number In Java
-```
+```java
 // Function to round doubles
     public static double round(double value, int places) {
         if (places < 0) throw new IllegalArgumentException();
@@ -206,7 +206,7 @@ getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 ```
 
 ### In-App Sounds
-```
+```java
 // For sound output
 final MediaPlayer diceSoundMP = MediaPlayer.create(this, R.raw.dicerollvirtualdicesound);
         
@@ -214,7 +214,7 @@ diceSoundMP.start();
 ```
 
 ### Splash Screen
-```
+```java
 // Using handler with postDelayed called runnable run method
 
         new Handler().postDelayed(new Runnable() {
@@ -231,3 +231,20 @@ diceSoundMP.start();
             }
         }, 5*1000); // wait for 5 seconds
 ```
+
+
+## Python
+
+### Make `.exe` Of Python Code
+-Run this terminal command in the directory of the `main.py` file:
+
+$ pyinstaller --onefile -w main.py
+
+- The -w is if you dont want the program to run in the terminal
+- So, adding -w will not open terminal
+- If terminal is needed, remove the -w
+
+- Then delete the `.spec` file 
+- Delete the build folder
+- The `.exe` is in the dist folder
+
