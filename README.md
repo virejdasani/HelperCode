@@ -4,6 +4,8 @@
         <summary><a href="#electron">Electron</a></summary>
         <a href="#electron">Main.js File</a>
         </br>
+        <a href="#package-file">Package.json file</a>
+        </br>
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
         </br>
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
@@ -75,6 +77,44 @@ app.whenReady().then(() => {
 app.on('window-all-closed', function () {
     if (process.platform !== 'darwin') app.quit()
 })
+```
+
+- ### `package.json` file example
+```
+{
+  "name": "geniemoji",
+  "version": "1.0.1",
+  "description": "The Emoji Genie App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack-darwin-x64": "electron-packager . 'Geniemoji' --platform=darwin --arch=x64 --icon=assets/AppIcons/icon.icns --ignore=builds",
+    "pack-win32-x64": "electron-packager . 'Geniemoji' --platform=win32 --arch=x64 --icon=assets/AppIcons/icon.ico --ignore=builds",
+    "pack-linux-x64": "electron-packager . 'Geniemoji' --platform=linux --arch=x64 --icon=assets/AppIcons/icon.png --ignore=builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virejdasani/Emojenie.git"
+  },
+  "keywords": [
+    "Geniemoji",
+    "Emoji",
+    "Genie",
+    "Emogenie",
+    "Emojenie"
+  ],
+  "author": "Virej Dasani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virejdasani/Emojenie/issues"
+  },
+  "homepage": "https://github.com/virejdasani/Emojenie#readme",
+  "dependencies": {
+    "electron": "^12.0.4",
+    "open": "^8.0.9"
+  }
+}
+
 ```
 
 - ### Open Links In External Browser
