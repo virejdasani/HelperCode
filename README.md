@@ -6,8 +6,9 @@
 - [GitHub](#github)
 - [Terminal](#terminal)
 
-
-## Android
+<div id="android" align="center">
+        <h2>Android</h2>
+</div>
 
 - ### Animation for any view
 ```java
@@ -233,7 +234,9 @@ diceSoundMP.start();
 ```
 
 
-## Python
+<div id="python" align="center">
+        <h2>Python</h2>
+</div>
 
 - ### Make `.exe` Of Python Code
 -Run this terminal command in the directory of the `main.py` file:
