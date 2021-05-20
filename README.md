@@ -7,7 +7,7 @@
 - [Android](#android)
 
 <div id="electron" align="center">
-        <h2>Electron</h2>
+        <h1>Electron</h1>
 </div>
 
 - ### Build Electron Apps
@@ -25,7 +25,7 @@ electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.p
 ```
 
 <div id="github" align="center">
-        <h2>GitHub</h2>
+        <h1>GitHub</h1>
 </div>
 
 - ### GitHub Downloads
@@ -34,7 +34,7 @@ $ curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"na
 ```
 
 <div id="terminal" align="center">
-        <h2>Terminal</h2>
+        <h1>Terminal</h1>
 </div>
 
 - ### Colors In The Terminal
@@ -55,7 +55,7 @@ print text_color.yellow + "YAY"
 ```
 
 <div id="python" align="center">
-        <h2>Python</h2>
+        <h1>Python</h1>
 </div>
 
 - ### Make `.exe` Of Python Code
@@ -74,7 +74,7 @@ $ pyinstaller --onefile -w main.py
 - The `.exe` is in the dist folder
 
 <div id="android" align="center">
-        <h2>Android</h2>
+        <h1>Android</h1>
 </div>
 
 - ### Animation for any view
