@@ -2,7 +2,8 @@
 ### Table of contents
 <details>
         <summary><a href="#electron">Electron</a></summary>
-        <a href="#main.js-file">Main.js File</a>
+        <a href="#main-js-file">Main.js</a>
+        </br>
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
         </br>
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
