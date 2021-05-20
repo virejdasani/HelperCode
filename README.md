@@ -13,6 +13,7 @@
 <details>
         <summary><a href="#github">GitHub</a></summary>
         <a href="#github-downloads">GitHub Downloads</a>
+        </br>
         <a href="#readme-stickers">README Stickers</a>
 </details>
 <details>
