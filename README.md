@@ -10,7 +10,25 @@
         <h1>Electron</h1>
 </div>
 
-- ### Build Electron Apps
+- ### Open Links In External Browser
+```
+$ npm install open
+```
+- Then, add the following to `main.js`
+```javascript
+const open = require('open')
+```
+- Then add this in the `createWindow` function
+```javascript
+    // This opens all links with `target="_blank"` attribute in external browser
+    window.webContents.on('new-window', function (event, url) {
+        event.preventDefault()
+        open(url)
+    })
+```
+- This will open links in tags like `<a href="https://google.com" target="_blank">Open Google</a>` in the users default browser
+
+- ### Build And Package Electron Apps
 - For MacOS
 ```
 electron-packager . "App Name" --platform=darwin --arch=x64 --icon=path/to/icon.icns
