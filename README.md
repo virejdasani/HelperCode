@@ -3,6 +3,7 @@
 <details>
         <summary><a href="#electron">Electron</a></summary>
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
+        </br>
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
 </details>
 <details>
@@ -13,8 +14,13 @@
         <summary><a href="#terminal">Terminal</a></summary>
         <a href="#colors-in-the-terminal">Colors In The Terminal</a>
 </details>
-- [Python](#python)
-- [Android](#android)
+
+<details>
+        <summary><a href="#python">Python</a></summary>
+</details>
+<details>
+        <summary><a href="#android">Android</a></summary>
+</details>
 
 <div id="electron" align="center">
         <h1>Electron</h1>
