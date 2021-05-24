@@ -11,6 +11,11 @@
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
 </details>
 <details>
+        <summary><a href="#javascript">JavaScript</a></summary>
+        <a href="#get-user-location">Get user Location</a>
+<!--         </br> -->
+</details>
+<details>
         <summary><a href="#github">GitHub</a></summary>
         <a href="#github-downloads">GitHub Downloads</a>
         </br>
@@ -155,6 +160,26 @@ electron-packager . "App Name" --platform=win32 --arch=x64 --icon=path/to/icon.i
 - For Linux
 ```
 electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.png --ignore=builds
+```
+
+<div id="javascript" align="center">
+        <h1>Javascript</h1>
+</div>
+
+- ### Get User Location
+```
+window.onload = function () {
+    // Get Location from IP
+    fetch('http://ip-api.com/json/')
+        .then(function (response) {
+            // console.log(response.json)
+            return response.json()
+        })
+        .then(function (data) {
+            let status = data.status
+            let country = data.country
+            let city = data.city
+            let ip = data.query
 ```
 
 <div id="github" align="center">
