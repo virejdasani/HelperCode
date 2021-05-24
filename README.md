@@ -167,7 +167,7 @@ electron-packager . "App Name" --platform=linux --arch=x64 --icon=path/to/icon.p
 </div>
 
 - ### Get User Location
-```
+```javascript
 window.onload = function () {
     // Get Location from IP
     fetch('http://ip-api.com/json/')
