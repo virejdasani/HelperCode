@@ -189,7 +189,8 @@ window.onload = function () {
 </div>
 
 - ### Github Releases
-```md
+- Add this to the release page README
+```
 # Responsivize
 A must-have tool to develop responsive websites!
 
