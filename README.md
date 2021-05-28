@@ -17,6 +17,8 @@
 </details>
 <details>
         <summary><a href="#github">GitHub</a></summary>
+        <a href="#github-releases">GitHub Releases</a>
+        </br>
         <a href="#github-downloads">GitHub Downloads</a>
         </br>
         <a href="#readme-stickers">README Stickers</a>
@@ -185,6 +187,34 @@ window.onload = function () {
 <div id="github" align="center">
         <h1>GitHub</h1>
 </div>
+
+- ### Github Releases
+```md
+# Responsivize
+A must-have tool to develop responsive websites!
+
+Download the app version that has your OS name from below 
+
+## Installation on windows:
+1. Download `Responsivize-Windows.zip`
+2. Once downloaded, right-click the file and select `Extract All`
+![](https://raw.githubusercontent.com/virejdasani/HelperCode/master/img/ExtractAll.png)
+Now select the destination where you want to install    
+3. Now, you will see a file called `Responsivize Setup`, double click that file
+4. Now, you may see something like `Windows protected your PC`
+5. Click on `More info` and `Run Anyway`
+![](https://raw.githubusercontent.com/virejdasani/HelperCode/master/img/WindowsDefenderRunAnyway.png)
+6. Next, there may be a popup window with this text: `Do you want to allow this app to make changes...`
+7. Simply click `yes` or `allow`, whichever one you see.
+8. Follow the steps of the setup and you are good to use the app!
+
+## Installation on MacOS
+1. Download `Responsivize-MacOS.zip`
+2. Once downloaded, double-click the file
+3. This will extract the app. Simply drag the app into the Applications folder on your machine.
+4. If you are prompted with something like "“Responsivize” cannot be opened because the developer cannot be verified.", click `cancel`. 
+5. Go to system preferences -> Security and Privacy -> General -> and click "Open Anyway".  
+```
 
 - ### GitHub Downloads
 ```
