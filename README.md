@@ -129,7 +129,7 @@ app.on('window-all-closed', function () {
 
 - ### Open Links In External Browser
 ```
-$ npm install open
+npm install open
 ```
 - Then, add the following to `main.js`
 ```javascript
@@ -148,7 +148,7 @@ const open = require('open')
 - ### Build And Package Electron Apps
 - If `package.json` has the package scripts in the `{scripts}`, simply run the following
 ```
-$ npm run pack-[operatingsystem]-x64
+npm run pack-[operatingsystem]-x64
 ```
 - The package scripts are:
 - For MacOS
@@ -219,7 +219,7 @@ Now select the destination where you want to install
 
 - ### GitHub Downloads
 ```
-$ curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"name"|"download_count"'
+curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"name"|"download_count"'
 ```
 
 - ### README Stickers
