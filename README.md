@@ -575,6 +575,11 @@ jt -t themename
 ```
 Then, restart the server
 
+Chesterish is a good theme
+```
+jt -t chesterish
+```
+
 If themes not already installed, use this command
 ```
 pip install jupyterthemes
