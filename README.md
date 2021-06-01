@@ -573,6 +573,7 @@ To select one of them, type this
 ```
 jt -t themename
 ```
+Then, restart the server
 
 If themes not already installed, use this command
 ```
