@@ -36,6 +36,9 @@
 <details>
         <summary><a href="#android">Android</a></summary>
 </details>
+<details>
+        <summary><a href="#jupyter-notebook">Jupyter Notebook</a></summary>
+</details>
 
 <div id="electron" align="center">
         <h1>Electron</h1>
@@ -554,4 +557,24 @@ diceSoundMP.start();
                 finish();
             }
         }, 5*1000); // wait for 5 seconds
+```
+
+<div id="jupyter-notebook" align="center">
+        <h1>Jupyter Notebook</h1>
+</div>
+
+- ### Color Theme
+To list all available color themes, use this command
+```
+jt -l
+```
+
+To select one of them, type this
+```
+jt -t themename
+```
+
+If themes not already installed, use this command
+```
+pip install jupyterthemes
 ```
