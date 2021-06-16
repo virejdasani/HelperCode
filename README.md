@@ -17,6 +17,8 @@
 </details>
 <details>
         <summary><a href="#github">GitHub</a></summary>
+        <a href="#gitignore">.gitignore</a>
+        </br>
         <a href="#github-releases">GitHub Releases</a>
         </br>
         <a href="#github-downloads">GitHub Downloads</a>
@@ -190,6 +192,16 @@ window.onload = function () {
 <div id="github" align="center">
         <h1>GitHub</h1>
 </div>
+
+- ### gitignore
+```
+**/.DS_Store
+
+app/node_modules
+app/.vscode
+
+builds/**/*.zip
+```
 
 - ### Github Releases
 - Add this to the release page README
