@@ -9,6 +9,8 @@
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
         </br>
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
+        </br>
+        <a href="#electron-rebuild">Electron Rebuild</a>
 </details>
 <details>
         <summary><a href="#javascript">JavaScript</a></summary>
@@ -149,6 +151,10 @@ const open = require('open')
     })
 ```
 - This will open links in tags like `<a href="https://google.com" target="_blank">Open Google</a>` in the users default browser
+
+- ### Electron Rebuild
+![Screenshot](https://user-images.githubusercontent.com/67495678/123195458-d610c080-d4c5-11eb-9161-e15c7c17f60e.png)
+
 
 - ### Build And Package Electron Apps
 - If `package.json` has the package scripts in the `{scripts}`, simply run the following
