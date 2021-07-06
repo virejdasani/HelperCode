@@ -43,6 +43,9 @@
 <details>
         <summary><a href="#jupyter-notebook">Jupyter Notebook</a></summary>
 </details>
+<details>
+        <summary><a href="#about-virej-dasani">About Virej Dasani</a></summary>
+</details>
 
 <div id="electron" align="center">
         <h1>Electron</h1>
@@ -602,3 +605,13 @@ If themes not already installed, use this command
 ```
 pip install jupyterthemes
 ```
+
+<div id="about-virej-dasani" align="center">
+        <h1>About Virej Dasani</h1>
+</div>
+
+Hi, I am Virej Dasani. A 16-year-old, student & self-taught Software Developer from India. I wrote my first line of code when I was 14 and since then, I have developed and designed, CLI, GUI apps & games,
+websites, browser extensions, contributed to numerous open-source projects, and more. I have
+built projects for operating systems including MacOS, Linux, Windows, Android, and IOS.
+I have worked with languages including, Python, Java, JavaScript, HTML, CSS, C, C#, Swift, Golang, Lua, and a few more!
+Almost all of my projects are open-source and you can check them out on my website: www.virej.ml
