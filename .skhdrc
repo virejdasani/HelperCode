@@ -1,0 +1,70 @@
+#SKHD STUFF
+
+# if you're having troubles finding key codes for a key just type skhd --observe in a terminal and type a key. Pretty cool! Or just check the wiki.
+
+## open terminal on ctrl+enter
+ctrl - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
+
+## swap window
+# hyper - y : yabai -m window --swap west
+# shift + alt - j : yabai -m window --swap south
+# shift + alt - k : yabai -m window --swap north
+hyper - 0x21 : yabai -m window --swap east # 0x21 is the "[" key
+
+# increse or decrease size of the window on the left
+cmd + shift - a : yabai -m window --resize left:-20:0
+shift + cmd - d : yabai -m window --resize left:20:0
+
+
+## rotate tree 90
+cmd + shift - r : yabai -m space --rotate 90
+
+## flip the tree vertically
+alt - x : yabai -m space --mirror y-axis
+## mirror tree x-axis
+alt - y : yabai -m space --mirror x-axis
+
+## toggle window fullscreen zoom
+cmd - m : yabai -m window --toggle zoom-fullscreen
+
+
+################################################################
+############################# UNUSED ###########################
+################################################################
+
+## increase window size
+# shift + alt - s : yabai -m window --resize bottom:0:20
+# shift + alt - w : yabai -m window --resize top:0:-20
+# shift + alt - d : yabai -m window --resize right:20:0
+
+## decrease window size
+# shift + cmd - s : yabai -m window --resize bottom:0:-20
+# shift + cmd - w : yabai -m window --resize top:0:20
+# shift + cmd - d : yabai -m window --resize right:-20:0
+
+## float / unfloat window and center on screen
+#alt - t : yabai -m window --toggle float;\
+#yabai -m window --grid 4:4:1:1:2:2 ## toggle sticky alt - s : yabai -m window --toggle sticky ## toggle sticky, float and resize to picture-in-picture size alt - p : yabai -m window --toggle sticky;\ yabai -m window --grid 5:5:4:0:1:1 ## change layout of desktop ctrl + alt - a : yabai -m space --layout bsp ctrl + alt - d : yabai -m space --layout float
+
+## toggle window border
+#shift + alt - b : yabai -m window --toggle border
+
+## move window
+#shift + ctrl - a : yabai -m window --move rel:-20:0
+#shift + ctrl - s : yabai -m window --move rel:0:20
+#shift + ctrl - w : yabai -m window --move rel:0:-20
+#shift + ctrl - d : yabai -m window --move rel:20:0
+
+## Swap window
+# hyper - y : yabai -m window --warp west
+# shift + cmd - j : yabai -m window --warp south
+# shift + cmd - k : yabai -m window --warp north
+# hyper - 0x21 : yabai -m window --warp east # "[" key
+
+## focus monitor
+#ctrl + alt - x  : yabai -m display --focus last
+#ctrl + alt - z  : yabai -m display --focus prev || yabai -m display --focus last
+#ctrl + alt - c  : yabai -m display --focus next || yabai -m display --focus first
+#ctrl + alt - 1  : yabai -m display --focus 1
+#ctrl + alt - 2  : yabai -m display --focus 2
+#ctrl + alt - 3  : yabai -m display --focus 3
