@@ -52,6 +52,8 @@
 </div>
 
 - ### Main.js File
+
+
 ```javascript
 const {
     app,
@@ -98,8 +100,12 @@ app.on('window-all-closed', function () {
 })
 ```
 
+
 - ### Package file example
+
 `package.json`
+
+
 ```json
 {
   "name": "geniemoji",
@@ -137,11 +143,18 @@ app.on('window-all-closed', function () {
 
 ```
 
+
+
 - ### Open Links In External Browser
+
 ```
 npm install open
 ```
+
+
 - Then, add the following to `main.js`
+
+
 ```javascript
 const open = require('open')
 ```
