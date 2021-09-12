@@ -10,7 +10,7 @@
         </br>
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
         </br>
-        <a href="#windows-installer">Make a Windows Intaller</a>
+        <a href="#windows-installer">Make a Windows Installer</a>
         </br>
         <a href="#electron-rebuild">Electron Rebuild</a>
 </details>
