@@ -1,4 +1,4 @@
-# HelperCode
+# Helper Code
 ### Table of contents
 <details>
         <summary><a href="#electron">Electron</a></summary>
@@ -9,6 +9,8 @@
         <a href="#open-links-in-external-browser">Open Links In External Browser</a>
         </br>
         <a href="#build-and-package-electron-apps">Build And Package Electron Apps</a>
+        </br>
+        <a href="#windows-installer">Make a Windows Intaller</a>
         </br>
         <a href="#electron-rebuild">Electron Rebuild</a>
 </details>
@@ -167,6 +169,10 @@ const open = require('open')
     })
 ```
 - This will open links in tags like `<a href="https://google.com" target="_blank">Open Google</a>` in the users default browser
+
+- ### Windows Installer
+- [This](https://www.youtube.com/watch?v=wJe1YPypgKY) video shows the whole process
+- Download [Inno Setup](https://jrsoftware.org/isdl.php)
 
 - ### Electron Rebuild
 ![Screenshot](https://user-images.githubusercontent.com/67495678/123195458-d610c080-d4c5-11eb-9161-e15c7c17f60e.png)
