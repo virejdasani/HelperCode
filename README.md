@@ -399,6 +399,7 @@ public void startAnimation(View view) {
 ```
 
 - ### Creator Activity (XML)
+
 ```xml
 //CreatorActivity
 
