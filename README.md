@@ -303,6 +303,7 @@ curl -s https://api.github.com/repos/virejdasani/codebox/releases | egrep '"name
 
 - ### Colors In The Terminal
 - Add this to Python code
+
 ```python
 class text_color:
         black = '\033[30m'
@@ -323,6 +324,7 @@ print text_color.yellow + "YAY"
 </div>
 
 - ### Vim Commands
+
 ```
 hjkl - for navigation -> k = kick UP
 i - insert
@@ -379,6 +381,7 @@ $ pyinstaller --onefile -w main.py
 </div>
 
 - ### Animation for any view
+
 ```java
 //For Animation
 
