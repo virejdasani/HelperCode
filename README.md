@@ -222,6 +222,7 @@ window.onload = function () {
 </div>
 
 - ### gitignore
+
 ```
 **/.DS_Store
 
@@ -233,6 +234,7 @@ builds/**/*.zip
 
 - ### Github Releases
 - Add this to the release page README
+
 ```
 # Responsivize
 A must-have tool to develop responsive websites!
