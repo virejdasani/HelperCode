@@ -465,7 +465,9 @@ public void startAnimation(View view) {
 </LinearLayout>
 ```
 
+
 - ### Firebase Example
+
 ```java
 package com.virej.packagename;
 
@@ -556,6 +558,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 - ### Fullscreen App
+
 ```java
 // Put this code in the java code of the app to make it fullscreen
 getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -563,6 +566,7 @@ getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 ```
 
 - ### Function To Round Number In Java
+
 ```java
 // Function to round doubles
     public static double round(double value, int places) {
@@ -578,6 +582,7 @@ getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 ```
 
 - ### In-App Sounds
+
 ```java
 // For sound output
 final MediaPlayer diceSoundMP = MediaPlayer.create(this, R.raw.dicerollvirtualdicesound);
@@ -586,6 +591,7 @@ diceSoundMP.start();
 ```
 
 - ### Splash Screen
+
 ```java
 // Using handler with postDelayed called runnable run method
 
@@ -610,17 +616,20 @@ diceSoundMP.start();
 
 - ### Color Theme
 To list all available color themes, use this command
+
 ```
 jt -l
 ```
 
 To select one of them, type this
+
 ```
 jt -t themename
 ```
 Then, restart the server
 
 Chesterish is a good theme
+
 ```
 jt -t chesterish
 ```
