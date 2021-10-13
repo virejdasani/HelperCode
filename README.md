@@ -20,6 +20,11 @@
 <!--         </br> -->
 </details>
 <details>
+        <summary><a href="#css">CSS</a></summary>
+        <a href="#remove-unused-css">Remove Unused CSS</a>
+<!--         </br> -->
+</details>
+<details>
         <summary><a href="#github">GitHub</a></summary>
         <a href="#gitignore">.gitignore</a>
         </br>
@@ -216,6 +221,17 @@ window.onload = function () {
             let city = data.city
             let ip = data.query
 ```
+
+<div id="css" align="center">
+        <h1>CSS</h1>
+</div>
+
+- ### Remove unused CSS
+- First download the CLI tool PurceCSS
+```
+purgecss --css style.css --content index.html --output style.css
+```
+
 
 <div id="github" align="center">
         <h1>GitHub</h1>
